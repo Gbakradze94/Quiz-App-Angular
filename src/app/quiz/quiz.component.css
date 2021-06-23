@@ -1,0 +1,109 @@
+.app-question-container {
+    margin: auto;
+    max-width: 90%;
+    min-width: 90%;
+}
+
+.button:hover {
+    background-color: white;
+    color: teal;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type='number'] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-container button {
+    margin: 2rem;
+}
+
+.number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+}
+
+.number-input button:before,
+.number-input button:after {
+    background-color: #212121;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+}
+
+.number-input input[type='number'] {
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-weight: bold;
+    font-size: 2rem;
+    height: 3rem;
+    max-width: 5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 3rem;
+    justify-content: center;
+    margin: 0;
+    outline: none;
+    position: relative;
+    width: 3rem;
+}
+
+.error {
+    color: red;
+}
+
+.beginQuizBtnContainer {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 25px;
+    border-style: solid;
+    color: white;
+    font-size: 2.2rem;
+    height: 100px;
+    margin-top: 2rem;
+    width: 300px;
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.results-container {
+    border: 0.5px solid rgb(177, 174, 174);
+    padding: 1rem;
+}
+
+.results-header {
+    text-align: center;
+}

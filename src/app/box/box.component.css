@@ -1,0 +1,17 @@
+.box {
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 2em;
+    height: 80%;
+    margin: 10px;
+    max-width: 200px;
+    min-width: 200px;
+    text-align: center;
+    transition: all 0.5s linear;
+    padding: 15px;
+}
+
+.box:hover {
+    background-color: white;
+    color: teal;
+}

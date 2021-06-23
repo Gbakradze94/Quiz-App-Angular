@@ -1,0 +1,14 @@
+<div class="container">
+    <h2 class="results-header">Results</h2>
+    <div class="results-container">
+        <h4>Category : {{ quizResults.category }}</h4>
+        <h4>Correct: {{ quizResults.correct }}</h4>
+        <h4>incorrect: {{ quizResults.incorrect }}</h4>
+        <h4>
+            Score: {{ ( (quizResults.correct / (quizResults.correct + quizResults.incorrect)) * 100 ).toFixed(2) }}%
+        </h4>
+    </div>
+    <button class="custom-button" type="button" (click)="onReturnHome()">
+      Home
+    </button>
+</div>
